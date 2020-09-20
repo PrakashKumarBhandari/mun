@@ -1,0 +1,160 @@
+  /*
+  *
+  * Contact Form Custom CSS Start
+  */
+#contact-us-form .invalid-feedback{
+     display: none;
+  }
+#contact-us-form #invalidCheck{
+    font-size: 15px;
+    height: 15px;
+    width: 20px;
+    padding:10px 5px;
+    margin-top:0px;
+    float: left;
+}
+
+#contact-us-form select{ 
+    font-size: 15px;
+    padding: 1px 0 4px 35px;
+    height: 52px;   
+}
+
+#contact-us-form input{
+   padding: 25px 25px 25px 35px;
+   font-size: 15px;
+}
+#contact-us-form textarea{
+    padding: 25px 25px 25px 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+ }
+ #contact-us-form .custom-checkbox{
+    padding: 35px;
+} 
+
+#contact-us-form .state-error{
+   display: block !important;
+   padding: 0 3px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   line-height: normal;
+   font-size: 0.85em;
+   color: #DE888A;
+   text-align: left;
+}
+#contact-us-form .state-error input,#contact-us-form .state-error textarea{
+   border: 1px solid #DE888A;
+}
+#contact-us-form #invalidCheck-error{
+   padding-left: 18px;
+}
+
+#contact-us-form .contact-name::before{
+   content:"\f007";
+   font-family: FontAwesome;
+   font-size: 16px;
+   position: absolute;
+   top: 15px;
+   padding-left: 14px;
+   z-index: 9;
+}
+
+#contact-us-form .contact-email::before{
+   content: "\f0e0"; 
+   /* "\f003"; */
+   font-family: FontAwesome;
+   font-size: 16px;
+   position: absolute;
+   top: 15px;
+   padding-left: 14px;
+   z-index: 9;
+}
+#contact-us-form .contact-date::before{
+   content: "\f274";
+   font-family: FontAwesome;
+   font-size: 16px;
+   position: absolute;
+   top: 15px;
+   padding-left: 14px;
+   z-index: 9;
+}
+#contact-us-form .contact-time::before{
+   content: "\f017";
+   font-family: FontAwesome;
+   font-size: 16px;
+   position: absolute;
+   top: 15px;
+   padding-left: 14px;
+   z-index: 9;
+}
+
+#contact-us-form .contact-persons::before{
+   content: "\f0c0";
+   font-family: FontAwesome;
+   font-size: 16px;
+   position: absolute;
+   top: 15px;
+   padding-left: 14px;
+   z-index: 9;
+}
+
+#contact-us-form .contact-subject::before{
+    content: "\f0eb";
+    font-family: FontAwesome;
+    font-size: 21px;
+    position: absolute;
+    top: 14px;
+    padding-left: 14px;
+    z-index: 9;
+ }
+ #contact-us-form .contact-phone::before{
+    content: "\f098";
+    font-family: FontAwesome;
+    font-size: 16px;
+    position: absolute;
+    top: 15px;
+    padding-left: 14px;
+    z-index: 9;
+ }
+
+#contact-us-form .contact-message::before{
+   content: "\f1d7"; 
+   font-family: FontAwesome;
+   font-size: 16px;
+   position: absolute;
+   top: 24px;
+   padding-left: 14px;
+   z-index: 9;
+}
+
+#showhideMessage{
+   cursor: pointer;
+}
+
+
+.alert-cookie .close{
+   float: left;
+}
+.btn-cookie{
+   background: linear-gradient(to bottom, #333366 5%, #336699 100%);
+   background-color: rgba(0, 0, 0, 0);
+   background-color: #333366;
+   display: inline-block;
+   cursor: pointer;
+   color: #fff!important;
+}
+.btn-cookie:hover{
+   background:linear-gradient(to bottom, #336699 5%, #333366 100%);
+   background-color:#336699;
+}
+
+#contact-us-form .contact-checkbox label{
+   font-weight: normal;
+}
+
+/*
+*
+* end Contact Form Custom CSS Start
+*/

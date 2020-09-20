@@ -1,0 +1,75 @@
+.footer-menu li{
+    list-style: none;
+    display: inline;
+    padding-right: 14px;
+    font-weight: bold;
+}
+
+.woocommerce-tabs .tabs .description_tab {
+    color:#000;
+}
+
+.woocommerce-billing-fields input::placeholder{
+    color:#fff;
+}
+.col-1, .col-2{
+    width: 50%!important;
+}
+
+.wc_payment_methods label,.woocommerce-checkout-payment, .woocommerce-checkout-payment label{
+    color:#343a40;
+}
+
+.woocommerce-checkout-payment a{
+    color:#3069d7;
+}
+
+.widget-area .woocommerce{
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .widget-area h2{
+    font-size: 24px!important;
+  }
+  .widget-area .cat-item .count{
+    float:right;
+  }
+  .widget .price_label{
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
+  .woocommerce-product-search input[type=submit]{
+      float: left;
+  }
+
+  /* Woocommerse Cart button count cart items*/
+  .cart-contents:before {
+    /* font-family:WooCommerce; */
+    font-family:FontAwesome;
+    /* content: "\e01d"; */
+    content: "\f07a";
+    font-size:28px;
+    margin-top:10px;
+    font-style:normal;
+    font-weight:400;
+    padding-right:5px;
+    vertical-align: bottom;
+}
+.cart-contents:hover {
+    text-decoration: none;
+}
+.cart-contents-count {
+    color: #fff;
+    background-color: #2ecc71;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1px 6px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
+.logincart li{
+    display: inline;
+}
